@@ -1,0 +1,122 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/http://example.com/http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author:Point
+Author URI:http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+@import url("../twentytwelve/style.css");
+
+@font-face {
+    font-family: "Ma Super Fonte";
+    src: url('Movie Filmstrip.ttf');
+}
+@font-face {
+    font-family: "Ma Fonte";
+    src: url('A Bit Empty.ttf');
+}
+
+
+
+.site-title a, .site-description {
+    font-family: "Ma Fonte", Helvetica, Arial, sans-serif;
+}
+
+
+.fg-moutarde a{
+  color: #FFD700 !important;
+  font-weight : bold;
+  margin-right: 15%;
+  margin-left: 10%;
+ }
+
+.fg-bleu a{
+  color: #6495ED !important; 
+  /*background: #FF00FF ;*/
+  font-weight : bold;
+  margin-right: 15%;
+  margin-left: 10%;
+}
+.fg-rose a{
+  color: #FF00FF !important; 
+  font-weight : bold;
+  margin-right: 15%;
+  margin-left: 10%;
+}
+.fg-orange a{
+  color: #FF8C00 !important; 
+  font-weight : bold;
+  margin-right: 15%;
+  margin-left: 10%;
+}
+.fg-jaune a{
+  margin-right: 15%;
+  color: #D02090 !important; 
+  font-weight : bold;
+  margin-left: 10%;
+}
+.fg-edito a{
+  color: #DC143C !important; 
+  font-weight : bold;
+  margin-right: 15%;
+  margin-left: 40%;
+}
+
+
+
+.entry-title a {
+	color: #dd9323!important;
+}
+.entry-header .entry-title {
+color: #dd9323!important;
+}
+
+.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th {
+    color: #DC143C;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2.18182;
+    text-transform: uppercase;
+    }
+
+.widget-title, .entry-content th, .comment-content th {
+    color: #DC143C;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2.18182;
+    text-transform: uppercase;
+    font-family: "Ma Super Fonte", Helvetica, Arial, sans-serif;
+}
+
+
+
+body, #wrapper, #espace{
+
+  margin-bottom: 50px;
+}
+.champs-personalisable i{
+  color: #dd9323;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.champs-personalisable span{
+  /*float: left;*/
+padding-right: 15px;
+}
+.champs-personalisable{
+  border-radius: 3px;
+  border: 1px #C71585 solid;
+color: #707070 ;
+padding: 10px;
+
+/*opacity: 0.5;
+background-color: #CC3399 !important;*/
+}
+.entry-title{
+  text-align: center;
+}
+.more-link{
+  color: #707070 ;
+}
